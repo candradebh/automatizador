@@ -32,6 +32,18 @@ build/
 ### VS Code ###
 .vscode/
 
-
-/frontend/node_modules
-
+## APLICACAO
+backend/src/main/resources/static/
+backend/target
+frontend/dist/
+frontend/node/
+frontend/coverage/
+frontend/node_modules/
+frontend/npm-debug.log
+frontend/package-lock.json
+frontend/target
+frontend/test-output
+frontend/tests/e2e/reports
+frontend/tests/unit/coverage
+frontend/yarn-error.log
+frontend/yarn.lock
