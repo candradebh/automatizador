@@ -7,11 +7,18 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.Optional;
 
 @RestController
 @RequestMapping("/ambiente")
 public class AmbienteController {
+
+
+    @GetMapping("/hello")
+    public String hello (){
+        return "Eu estou vivo agora " + new Date();
+    }
 
     @Autowired
     AmbienteRepository repository;
