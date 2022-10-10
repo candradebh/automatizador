@@ -58,7 +58,7 @@
                 </executions>
                 <configuration>
                     <nodeVersion>${node.version}</nodeVersion>
-                    <workingDirectory>src/frontend</workingDirectory>
+                    <workingDirectory>${project.parent.basedir}/frontend</workingDirectory>
                 </configuration>
             </plugin>
         </plugins>
