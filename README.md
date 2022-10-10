@@ -16,5 +16,14 @@ Cadastre os ambientes e configurações em que deseja-se automatizar suas tarefa
 ### Banco de dados 
 Automarizar tarefas de banco de dados para executar queries SQL nos ambientes cadastrados 
 
+## Executando pela primeira Vez
 
+### Backend 
 
+`mvn clean install`
+
+`mvn --projects backend spring-boot:run`
+
+### Frontend
+
+`npm run serve`
